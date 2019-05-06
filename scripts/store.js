@@ -1,7 +1,7 @@
 'use strict';
 
 const store = (function () {
-  const foo = 'bar';
+  //const foo = 'bar';
   const storeItems = {
     items: [
       { id: cuid(), name: 'apples', checked: false },
@@ -12,5 +12,12 @@ const store = (function () {
     hideCheckedItems: false,
     searchTerm: ''
   };
-  return storeItems;
+  const findId = function findById(id) {
+    store.items.find(function(element){
+      
+    });
+  }
+
+  return {storeItems, findId};
+
 }() );

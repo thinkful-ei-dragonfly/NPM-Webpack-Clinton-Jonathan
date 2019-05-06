@@ -6,5 +6,5 @@ $(document).ready(function() {
   shoppingList.render();
 });
 
-console.log(Item);
-console.log(foo);
+console.log(Item.validateName('Jon'));
+//console.log(foo);
