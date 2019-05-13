@@ -1,6 +1,6 @@
 'use strict';
 
-const Item = (function () {
+// const Item = (function () {
   //const foo = 'bar';
   function validateName(name){
     if (name.length > 0){
@@ -17,6 +17,6 @@ const Item = (function () {
           checked: false 
       }
   } 
-  return { validateName, create };
-}() );
+export default { validateName, create };
+// }() );
 

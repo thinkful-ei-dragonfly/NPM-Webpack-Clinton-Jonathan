@@ -1,6 +1,6 @@
 'use strict';
 
-const store = (function () {
+// const store = (function () {
   //const foo = 'bar';
   const items = [
       { id: cuid(), name: 'apples', checked: false },
@@ -61,7 +61,7 @@ const store = (function () {
   };
 
 
-  return {
+export default {
     items,
     hideCheckedItems,
     searchTerm,
@@ -73,4 +73,4 @@ const store = (function () {
     setSearchTerm,
   };
 
-}() );
+// }() );
