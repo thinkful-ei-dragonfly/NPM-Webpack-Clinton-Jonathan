@@ -1,7 +1,10 @@
-/* global store, cuid */
+
 
 // eslint-disable-next-line no-unused-vars
-// const shoppingList = (function(){
+
+
+import $ from 'jquery';
+import store from './store.js';
 
   function generateItemElement(item) {
     let itemTitle = `<span class="shopping-item shopping-item__checked">${item.name}</span>`;

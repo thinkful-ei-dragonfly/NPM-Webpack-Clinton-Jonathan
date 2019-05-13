@@ -1,5 +1,6 @@
 'use strict';
 
+import cuid from 'cuid';
 // const Item = (function () {
   //const foo = 'bar';
   function validateName(name){
